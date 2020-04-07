@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntaje Final</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <h1 class="text-center">Puntaje Final</h1>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="">Ingresa el número de respuestas correctas</label>
+                        <input id="respCorrectas" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="">Ingresa el número de respuestas incorrectas</label>
+                        <input id="respIncorrectas" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="">Ingresa el número de respuestas en blanco</label>
+                        <input id="respBlanco" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="btnPuntaje" class="btn btn-outline-info btn-block text-center">Puntaje Final</button>
+                </div>
+            </div>
+
+            <div id="imprimirPuntaje" class="alert alert-primary mt-3 text-center">
+                Puntaje
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

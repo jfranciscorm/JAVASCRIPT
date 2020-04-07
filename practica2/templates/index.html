@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <!-- MarginTop 2 -->
+    <h1 class="text-center mt-2">Practica 2</h1>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="">Ingresa los metros a pintar</label>
+
+                        <input id="metros" type="number" class="form-control" placeholder=" Cantidad de metros">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="">Costo de pintura por metro^2</label>
+
+                        <input type="number"  class="form-control" id="preciopormetro" placeholder=" Costo por metro^2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Color del boton btn btn-info (azul) btn-block abarca el 100%-->
+                    <button class="btn btn-outline-info btn-block" id="btnCalcular">Calcular Costo de Trabajo</button>
+                </div>
+            </div>
+
+            <div id="buttonResultado" class="alert alert-primary mt-3" role="alert">
+                Costo de trabajo
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

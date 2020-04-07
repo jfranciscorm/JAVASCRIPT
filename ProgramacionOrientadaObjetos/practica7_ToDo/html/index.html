@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>App To Do</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>App To Do</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <form action="#" id="formulario">
+              <label for="ToDo">Actividad a realizar: </label>
+              <textarea id="txToDo" rows="3" class="form-control"></textarea>
+              <button type="submit" class="mt-2 btn btn-outline-info btn-block">Agregar Actividad</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="divs" class="row col-12">
+        <div class="col-6 pull-left">
+          <h2>Actividades</h2>
+
+          <ul id="lista-atividades" class="list-group">
+
+          </ul>
+        </div>
+
+        <div class="col-6 pull-right">
+          <h2>Actividades Realizadas</h2>
+
+          <ul id="lista-ActTerminadas" class="list-group">
+
+
+          </ul>
+        </div>
+
+      </div> 
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="../js/localStorage.class.js"></script>
+  <script src="../js/ToDo.class.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>

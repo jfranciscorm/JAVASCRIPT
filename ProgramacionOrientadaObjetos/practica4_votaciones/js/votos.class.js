@@ -1,0 +1,9 @@
+class Votos {
+
+
+    SumarVotos(){
+
+        
+    }
+
+}
